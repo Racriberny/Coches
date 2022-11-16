@@ -1,0 +1,20 @@
+[
+  {
+    "marca": "Ferrari",
+    "modelo": "F40",
+    "color": "Rojo",
+    "ruedas": 4
+  },
+  {
+    "marca": "Opel",
+    "modelo": "Corsa",
+    "color": "Azul",
+    "ruedas": 4
+  },
+  {
+    "marca": "Seat",
+    "modelo": "Ibiza",
+    "color": "Negro",
+    "ruedas": 4
+  }
+]
