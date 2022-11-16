@@ -38,7 +38,7 @@ public class AdaptadorCoches extends RecyclerView.Adapter<AdaptadorCoches.Coches
     public static class CochesViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private final TextView marca;
         private final TextView color;
-        private IOnClickListener listener;
+        private final IOnClickListener listener;
         public CochesViewHolder(@NonNull View itemView, IOnClickListener listener) {
             super(itemView);
             marca = itemView.findViewById(R.id.tvMarcaDato);

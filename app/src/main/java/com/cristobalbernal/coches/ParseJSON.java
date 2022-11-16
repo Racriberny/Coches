@@ -34,11 +34,12 @@ public class ParseJSON {
             coches = new Coche[array.length()];
             for (int i = 0; i <array.length() ; i++) {
                 JSONObject jsonObject = array.getJSONObject(i);
+                String codigo = jsonObject.getString("codigo");
                 int ruedas  = jsonObject.getInt("ruedas");
                 String mmodelo  = jsonObject.getString("modelo");
                 String color  = jsonObject.getString("color");
                 String marca  = jsonObject.getString("marca");
-                coches[i] = new Coche(marca,mmodelo,color,ruedas);
+                coches[i] = new Coche(codigo,marca,mmodelo,color,ruedas);
             }
             parsed = true;
         } catch (IOException e) {

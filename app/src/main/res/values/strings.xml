@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Coches</string>
+    <string name="Rueda">Rueda</string>
+    <string name="Marca">Marca</string>
+    <string name="Modelo">Modelo</string>
+    <string name="Color">Color</string>
 </resources>

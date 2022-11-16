@@ -1,17 +1,20 @@
 [
   {
+    "codigo": "FR",
     "marca": "Ferrari",
     "modelo": "F40",
     "color": "Rojo",
     "ruedas": 4
   },
   {
+    "codigo": "OC",
     "marca": "Opel",
     "modelo": "Corsa",
     "color": "Azul",
     "ruedas": 4
   },
   {
+    "codigo": "SI",
     "marca": "Seat",
     "modelo": "Ibiza",
     "color": "Negro",

@@ -3,16 +3,22 @@ package com.cristobalbernal.coches;
 import java.io.Serializable;
 
 public class Coche implements Serializable {
+    private String codigo;
     private String marca;
     private String modelo;
     private String color;
     private int ruedas;
 
-    public Coche(String marca, String modelo, String color, int ruedas) {
+    public Coche(String codigo, String marca, String modelo, String color, int ruedas) {
+        this.codigo = codigo;
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
         this.ruedas = ruedas;
+    }
+
+    public String getCodigo() {
+        return codigo;
     }
 
     public String getMarca() {
